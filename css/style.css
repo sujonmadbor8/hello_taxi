@@ -88,13 +88,14 @@ img {
   width: 100%;
 }
 .btn_c {
-  padding: 10px 30px;
+  padding: 15px 30px;
   font-family: FiraSansCondensed-Medium;
-  font-size: 19px;
+  font-size: 20px;
   border: 0;
   border-radius: 30px;
   outline: 0;
   background-color: var(--yellow_color);
+  text-transform: uppercase;
   transition: all 0.3s;
 }
 .btn_c:hover {
@@ -210,10 +211,15 @@ input:checked + .radio_tile label {
 .btn_banner {
   padding: 15px 70px;
   background-color: var(--black_color);
-  color: var(--white_color);
+  color: var(--yellow_color);
 }
 .form_input input {
   margin-top: 20px;
+}
+
+.slick-prev,
+.slick-arrow {
+  display: none !important;
 }
 
 /* banner end  */
@@ -391,3 +397,87 @@ h2 {
   width: 150px;
 }
 /* download end  */
+
+/* drivers start  */
+.drivers {
+}
+.drivers_t {
+}
+.drivers_t p {
+  padding-right: 310px;
+}
+.driver_first_col {
+}
+.driver_first_col p {
+  padding-bottom: 10px;
+  font-family: OpenSans-Bold;
+  font-size: 20px;
+  font-weight: 700;
+}
+.driver_first_col p span {
+  color: var(--yellow_color);
+}
+.btn_driver a {
+  padding: 15px 50px;
+  color: var(--black_color);
+}
+.btn_driver a:hover {
+}
+
+element.style {
+}
+hr.horizontal_row {
+  background: url("../images/hr.png") 0% 0% repeat-x;
+  height: 16px !important;
+  margin: 0 0 0;
+  display: block;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+}
+
+/* drivers end  */
+
+/* testimonial item start  */
+.testimonial {
+  background-color: var(--light_grey);
+}
+.testimonial {
+}
+.testimonial_item {
+  margin-bottom: 20px;
+  min-height: 480px;
+  padding: 35px 35px 120px 35px;
+  background-color: var(--white_color);
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+}
+.testimonial_desc {
+}
+.testimonial_desc p {
+}
+.testimonial_img {
+  margin-bottom: -55px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.testimonial_img i {
+  font-size: 46px;
+  color: #e6e6e6;
+}
+.testimonial_img h6 {
+  margin: 10px 0px 20px;
+  font-family: OpenSans-Bold;
+  font-weight: 700;
+}
+
+.testimonial_img img {
+  margin: 0 auto 20px;
+  width: 70px;
+  border-radius: 50px;
+}
+
+/* testimonial item end */
