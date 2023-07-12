@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello-Taxi</title>
-    <link rel="shortcut icon" href="images/logo2.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon" />
 
     <!-- fontawsome  -->
     <link rel="stylesheet" href="icons/css/all.min.css" />
@@ -17,365 +17,436 @@
     <link rel="stylesheet" href="css/media.css" />
   </head>
   <body>
+    <!-- header start  -->
     <header>
-      <div class="logo"><img src="images/logo2.png" alt="" /></div>
+      <div class="container px-0">
+        <nav class="navbar navbar-expand-lg nav_c">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              ><img src="images/logo.png" alt="Hello-Taxi"
+            /></a>
+            <button
+              class="navbar-toggler bg-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse nav_toggler"
+              id="navbarTogglerDemo02"
+            >
+              <ul class="navbar-nav ms-auto my-2 my-lg-0 menu">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
 
-      <nav class="menu">
-        <a href="#">Home</a>
-        <a href="#About">About us</a>
-        <a href="#">Blog</a>
-        <a href="#">Services</a>
-        <a href="#">Gallery</a>
-      </nav>
-
-      <div class="navbar-icons">
-        <div id="navbar" class="fas fa-bars"></div>
-
-        <div class="contact"><a href="#">contact</a></div>
-      </div>
-
-      <div class="contact-form">
-        <form action="" class="navbar-form">
-          <div id="form-close" class="fas fa-times"></div>
-          <div class="names-section">
-            <input type="text" id="fname" name="fname" value="John" />
-            <input type="text" id="Lname" name="fname" value="Doe" />
-
-            <input type="email" value="Your email" />
-            <button class="form-btn">Submit</button>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About us </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+              <button class="btn_c btn_nav">Get Taxi</button>
+            </div>
           </div>
-        </form>
+        </nav>
       </div>
     </header>
+    <!-- header end  -->
 
-    <!-- Home section starting -->
-
-    <div class="main-home">
-      <div class="home-inner-contect">
-        <div class="home-content">
-          <h3>Hire your best driver</h3>
-
-          <h1>
-            Trusted and <span>Cheapest Taxi</span> <br />
-            company service
-          </h1>
-
-          <div class="important-btn">
-            <a href="#">Book Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- home section ended -->
-
-    <!-- Our business partner -->
-
-    <div id="About" class="about-us">
-      <div class="main-about">
-        <div class="inner-about"><img src="images/d1.jpg" alt="" /></div>
-        <div class="inner-about">
-          <div class="about-content">
-            <h1>About Us</h1>
-            <div class="paragraph">
-              <h4 class="pb-2">
-                Welcome to “Hello-Taxi”. We are a fully licensed and
-                well-experienced Taxi Service Provider in England.
-              </h4>
-              <p>
-                No matter if you are an individual or a group of people, large
-                or small, business or family, we are here to facilitate you with
-                efficient, clean, and professional Taxi Services in Fort William
-                (England). We are available 24 hours throughout the year. All of
-                our drivers are highly trained and certified to maintain the
-                premier standards for the passengers. We believe that you will
-                be back again to get the services from us in Fort William
-                (England).
-              </p>
-              <p>
-                We have a highly professional customer support team who are
-                staying beside the clients. No matter where you are, we will
-                reach you to drop you off at your destination.
-              </p>
-              <h4>
-                -----<span> “Hello-Taxi” </span> is the name of Reliability.
-                -----
-              </h4>
+    <!-- banner start  -->
+    <section class="banner">
+      <div class="container">
+        <!-- first row start  -->
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6">
+            <div class="banner_text">
+              <h3>GET TAXI NOW</h3>
+              <h1>800-5-800</h1>
             </div>
-
-            <div class="contact-with-us">
-              <div class="fa-solid fa-phone phone"></div>
-              <div class="contact-inner-content">
-                <h4>Call us 24/7 <span>anytime</span></h4>
-                <h4>+447878941715</h4>
-              </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="banner_img">
+              <img src="images/car1.png" alt="Hello-Taxi" />
             </div>
           </div>
         </div>
-      </div>
-    </div>
+        <!-- first rowinput-container end  -->
 
-    <!-- our services -->
-
-    <div class="container">
-      <div class="our-service">
-        <div class="service-heading">
-          <h3>Our services</h3>
-          <h1>what we are offering</h1>
-        </div>
-        <!-- row start  -->
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-          <!-- single item start  -->
-          <div class="col">
-            <div class="card service_item">
-              <img src="images/d1.jpg" class="card-img-top" alt="Hello-Taxi" />
-              <div class="card-body service_item_desc">
-                <h5 class="card-title s_title">
-                  <strong>Airport Transfer and Car Hire</strong>
-                </h5>
-                <p class="card-text s_text">
-                  We provide convenient and professional service to all the
-                  airports in England. Our highly mannered drivers also assist
-                  you in travel plans and shifting luggage throughout the
-                  journey. They will ensure timely arrival at the airport to
-                  avoid unexpected disturbances.
-                </p>
-              </div>
+        <!-- second row start  -->
+        <div class="radio_tile_group">
+          <div class="input_container">
+            <input id="standard" type="radio" name="radio" />
+            <div class="radio_tile">
+              <img src="images/standard.png" alt="" />
+              <label for="standard">Standard</label>
             </div>
           </div>
-          <!-- single item end  -->
-          <!-- single item start  -->
-          <div class="col">
-            <div class="card service_item">
-              <img src="images/d1.jpg" class="card-img-top" alt="Hello-Taxi" />
-              <div class="card-body service_item_desc">
-                <h5 class="card-title s_title">
-                  <strong>Airport Transfer and Car Hire</strong>
-                </h5>
-                <p class="card-text s_text">
-                  We provide convenient and professional service to all the
-                  airports in England. Our highly mannered drivers also assist
-                  you in travel plans and shifting luggage throughout the
-                  journey. They will ensure timely arrival at the airport to
-                  avoid unexpected disturbances.
-                </p>
-              </div>
+
+          <div class="input_container">
+            <input id="business" type="radio" name="radio" />
+            <div class="radio_tile">
+              <img src="images/business.png" alt="" />
+              <label for="business">Business</label>
             </div>
           </div>
-          <!-- single item end  -->
-          <!-- single item start  -->
-          <div class="col">
-            <div class="card service_item">
-              <img src="images/d1.jpg" class="card-img-top" alt="Hello-Taxi" />
-              <div class="card-body service_item_desc">
-                <h5 class="card-title s_title">
-                  <strong>Airport Transfer and Car Hire</strong>
-                </h5>
-                <p class="card-text s_text">
-                  We provide convenient and professional service to all the
-                  airports in England. Our highly mannered drivers also assist
-                  you in travel plans and shifting luggage throughout the
-                  journey. They will ensure timely arrival at the airport to
-                  avoid unexpected disturbances.
-                </p>
-              </div>
+
+          <div class="input_container">
+            <input id="vip" type="radio" name="radio" />
+            <div class="radio_tile">
+              <img src="images/vip.png" alt="" />
+              <label for="vip">Vip</label>
             </div>
           </div>
-          <!-- single item end  -->
-          <!-- single item start  -->
-          <div class="col">
-            <div class="card service_item">
-              <img src="images/d1.jpg" class="card-img-top" alt="Hello-Taxi" />
-              <div class="card-body service_item_desc">
-                <h5 class="card-title s_title">
-                  <strong>Airport Transfer and Car Hire</strong>
-                </h5>
-                <p class="card-text s_text">
-                  We provide convenient and professional service to all the
-                  airports in England. Our highly mannered drivers also assist
-                  you in travel plans and shifting luggage throughout the
-                  journey. They will ensure timely arrival at the airport to
-                  avoid unexpected disturbances.
-                </p>
-              </div>
+
+          <div class="input_container">
+            <input id="bus" type="radio" name="radio" />
+            <div class="radio_tile">
+              <img src="images/bus-minivan.png" alt="" />
+              <label for="bus">Bus-Minivan</label>
             </div>
           </div>
-          <!-- single item end  -->
         </div>
-        <!-- row end  -->
-      </div>
-    </div>
+        <!-- second row end  -->
 
-    <!-- comfortable Trip -->
-
-    <div class="main-trip">
-      <div class="main-trip-heading">
-        <h1>comfortable <span>Trip</span></h1>
-      </div>
-
-      <div class="main-trip-box">
-        <div class="main-trip-inner-box">
-          <img src="images/driver4.jpg" alt="" />
-
-          <div class="trip-content">
-            <i class="fa-solid fa-car"></i>
-            <h2>comfortable Ride</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id vel
-              saepe dolorem numquam consequatur quos pariatur, voluptatem
-              dignissimos. Quaerat in corrupti
-            </p>
+        <!-- third row start  -->
+        <div class="row pt-2 form_input">
+          <div class="col-lg-3">
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-lg"
+              placeholder="From Address..."
+            />
+          </div>
+          <div class="col-lg-3">
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-lg"
+              placeholder="To..."
+            />
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-lg"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-lg"
+              placeholder="Car Type"
+            />
           </div>
         </div>
-
-        <div class="main-trip-inner-box">
-          <img src="images/driver7.jpg" alt="" />
-
-          <div class="trip-content">
-            <i class="fa-solid fa-car"></i>
-            <h2>comfortable Ride</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id vel
-              saepe dolorem numquam consequatur quos pariatur, voluptatem
-              dignissimos. Quaerat in corrupti
-            </p>
-          </div>
+        <div class="text-center mt-5">
+          <a href="#" class="btn_c btn_banner">Get Taxi</a>
         </div>
-
-        <div class="main-trip-inner-box">
-          <img src="images/d1.jpg" alt="" />
-
-          <div class="trip-content">
-            <i class="fa-solid fa-car"></i>
-            <h2>comfortable Ride</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id vel
-              saepe dolorem numquam consequatur quos pariatur, voluptatem
-              dignissimos. Quaerat in corrupti
-            </p>
-          </div>
-        </div>
-
-        <div class="main-trip-inner-box">
-          <img src="images/driver3.jpg" alt="" />
-
-          <div class="trip-content">
-            <i class="fa-solid fa-car"></i>
-            <h2>comfortable Ride</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id vel
-              saepe dolorem numquam consequatur quos pariatur, voluptatem
-              dignissimos. Quaerat in corrupti
-            </p>
-          </div>
-        </div>
-
-        <div class="main-trip-inner-box">
-          <img src="images/driver6.jpg" alt="" />
-
-          <div class="trip-content">
-            <i class="fa-solid fa-car"></i>
-            <h2>comfortable Ride</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id vel
-              saepe dolorem numquam consequatur quos pariatur, voluptatem
-              dignissimos. Quaerat in corrupti
-            </p>
-          </div>
-        </div>
-
-        <div class="main-trip-inner-box">
-          <img src="images/driver7.jpg" alt="" />
-
-          <div class="trip-content">
-            <i class="fa-solid fa-car"></i>
-            <h2>comfortable Ride</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id vel
-              saepe dolorem numquam consequatur quos pariatur, voluptatem
-              dignissimos. Quaerat in corrupti
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <section class="order" id="order">
-      <h1 class="heading"><span>Book</span> now</h1>
-
-      <div class="row">
-        <form action="" class="myform">
-          <div class="inputBox">
-            <input type="text" placeholder="Your name" required />
-            <input type="email" placeholder="Your email" required />
-          </div>
-
-          <div class="inputBox">
-            <input type="number" placeholder="Your number" required />
-            <input type="text" placeholder="Pax" />
-          </div>
-
-          <textarea
-            placeholder="Your address"
-            name=""
-            id=""
-            cols="30"
-            rows="10"
-          ></textarea>
-
-          <input type="submit" value="Book now" class="btn" />
-        </form>
-
-        <div class="image footer-image">
-          <img src="images/d1.jpg" alt="" />
-        </div>
+        <!-- third row end  -->
       </div>
     </section>
+    <!-- banner end  -->
 
-    <!-- footer start  -->
-    <footer class="footer">
+    <!-- services start  -->
+    <section class="services padding_tb">
       <div class="container">
+        <!-- first row start  -->
         <div class="row">
-          <div class="footer-col">
-            <h4>company</h4>
-            <ul>
-              <li><a href="#">about us</a></li>
-              <li><a href="#">our services</a></li>
-              <li><a href="#">privacy policy</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>get help</h4>
-            <ul>
-              <li><a href="#">taxi</a></li>
-              <li><a href="#">taxi</a></li>
-              <li><a href="#">taxi</a></li>
-              <li><a href="#">taxi </a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>online book</h4>
-            <ul>
-              <li><a href="#">Minicabs</a></li>
-              <li><a href="#">Minicabs</a></li>
-              <li><a href="#">Minicabs</a></li>
-              <li><a href="#">Minicabs</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>follow us</h4>
-            <div class="social-links">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <div class="col-lg-12">
+            <div class="service_header text-center">
+              <h4>Welcome</h4>
+              <h2>Our Services</h2>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
+        <!-- first row end  -->
 
-    <!-- footer end  -->
+        <!-- second row start  -->
+        <div class="row">
+          <!-- single item start  -->
+          <div class="col-lg-3 col-md-6">
+            <div class="service_item">
+              <img src="images/rapid_city_transfer.png" alt="Hello-Taxi" />
+              <div class="service_desc">
+                <h5>Rapid City Transfer</h5>
+                <p>
+                  We will bring you quickly and comfortably to anywhere in your
+                  city
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- single item end  -->
+          <!-- single item start  -->
+          <div class="col-lg-3 col-md-6">
+            <div class="service_item border_right">
+              <img src="images/booking_hotel.png" alt="Hello-Taxi" />
+              <div class="service_desc">
+                <h5>Booking a Hotel</h5>
+                <p>
+                  If you need a comfortable hotel, our operators will book it
+                  for you, and take a taxi to the address
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- single item end  -->
+          <!-- single item start  -->
+          <div class="col-lg-3 col-md-6">
+            <div class="service_item">
+              <img src="images/airport_transfer.png" alt="Hello-Taxi" />
+              <div class="service_desc">
+                <h5>Airport Transfer</h5>
+                <p>
+                  We will bring you quickly and comfortably to anywhere in your
+                  city
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- single item end  -->
+          <!-- single item start  -->
+          <div class="col-lg-3 col-md-6">
+            <div class="service_item border_r">
+              <img src="images/baggages.png" alt="Hello-Taxi" />
+              <div class="service_desc">
+                <h5>BAGGAGE TRANSPORT</h5>
+                <p>
+                  If you need a comfortable hotel, our operators will book it
+                  for you, and take a taxi to the address
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- single item end  -->
+        </div>
+        <!-- second row end  -->
+      </div>
+    </section>
+    <!-- services end  -->
+    <!-- pricing start  -->
+    <section class="pricing padding_tb">
+      <div class="container">
+        <!-- first row start  -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="service_header price_header text-center">
+              <h4>SEE OUR</h4>
+              <h2>TARIFFS</h2>
+            </div>
+          </div>
+        </div>
+        <!-- first row end  -->
+        <!-- second row start  -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- single item start  -->
+          <div class="col-lg-3 col-md-6">
+            <div class="card price_item">
+              <img
+                src="images/standard1.png"
+                class="card-img-top"
+                alt="Hello-Taxi"
+              />
+              <div class="card-body price_desc">
+                <h4 class="card-title">Standart</h4>
+                <p class="card-text">
+                  Standard sedan for a drive around the city at your service
+                </p>
+                <div class="price">"$2" <span>/km</span></div>
+              </div>
+            </div>
+          </div>
+          <!-- single item end  -->
+          <!-- single item start  -->
+          <div class="col-lg-3 col-md-6">
+            <div class="card price_item">
+              <img
+                src="images/business1.png"
+                class="card-img-top"
+                alt="Hello-Taxi"
+              />
+              <div class="card-body price_desc">
+                <h4 class="card-title">Business</h4>
+                <p class="card-text">
+                  Standard sedan for a drive around the city at your service
+                </p>
+                <div class="price">"$2.7" <span>/km</span></div>
+              </div>
+            </div>
+          </div>
+          <!-- single item end  -->
+          <!-- single item start  -->
+          <div class="col-lg-3 col-md-6">
+            <div class="card price_item price_item_third">
+              <div class="star_icon"><i class="fa-solid fa-star"></i></div>
+              <img
+                src="images/vip1.png"
+                class="card-img-top"
+                alt="Hello-Taxi"
+              />
+              <div class="card-body price_desc">
+                <h4 class="card-title">VIP</h4>
+                <p class="card-text">
+                  Standard sedan for a drive around the city at your service
+                </p>
+                <div class="price">"$5" <span>/km</span></div>
+              </div>
+            </div>
+          </div>
+          <!-- single item end  -->
+          <!-- single item start  -->
+          <div class="col-lg-3 col-md-6">
+            <div class="card price_item">
+              <img
+                src="images/bus-minivan1.png"
+                class="card-img-top price_van"
+                alt="Hello-Taxi"
+              />
+              <div class="card-body price_desc">
+                <h4 class="card-title">Bus-minivan</h4>
+                <p class="card-text">
+                  Standard sedan for a drive around the city at your service
+                </p>
+                <div class="price">$4.5 <span>/km</span></div>
+              </div>
+            </div>
+          </div>
+          <!-- single item end  -->
+        </div>
+        <!-- second row end  -->
+      </div>
+    </section>
+    <!-- pricing end  -->
+
+    <!-- downlaod start  -->
+    <div class="download padding_tb">
+      <div class="container">
+        <!-- first row start  -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="service_header downlaod_header text-center">
+              <h4>GET MORE BENEFITS</h4>
+              <h2>DOWNLOAD THE APP</h2>
+            </div>
+          </div>
+        </div>
+        <!-- first row end  -->
+        <!-- second row start  -->
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <!-- row start  -->
+            <div class="row mt-5">
+              <div class="col-lg-2 d-lg-block d-none">
+                <div class="number">01.</div>
+              </div>
+              <div class="col-lg-8 offset-md-2">
+                <div class="desc">
+                  <h4 class="text-uppercase">Fast Booking</h4>
+                  <p>
+                    Nam ac ligula congue, interdum enim sit amet, fermentum
+                    nisi.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- row end  -->
+            <!-- row start  -->
+            <div class="row mt-5">
+              <div class="col-lg-2 d-lg-block d-none">
+                <div class="number">02.</div>
+              </div>
+              <div class="col-lg-8 offset-md-2">
+                <div class="desc">
+                  <h4 class="text-uppercase">Easy to use</h4>
+                  <p>
+                    Orci varius natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- row end  -->
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="d_center">
+              <div class="download_logo">
+                <a href="#"
+                  ><img src="images/app-google-150x50.png" alt="Hello-Taxi"
+                /></a>
+                <a href="#"
+                  ><img src="images/app-apple-150x53.png" alt="Hello-Taxi"
+                /></a>
+              </div>
+              <div class="download_center_img d-lg-block d-none">
+                <img src="images/Hello-Taxi.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <!-- row start  -->
+            <div class="row mt-5">
+              <div class="col-lg-8 offset-md-2">
+                <div class="desc desc_r desc_sm">
+                  <h4 class="text-uppercase">GPS SEARCHING</h4>
+                  <p>
+                    Nam ac ligula congue, interdum enim sit amet, fermentum
+                    nisi.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-2 d-lg-block d-none">
+                <div class="number">01.</div>
+              </div>
+            </div>
+            <!-- row end  -->
+            <!-- row start  -->
+            <div class="row mt-5">
+              <div class="offset-md-2 col-lg-8">
+                <div class="desc desc_r">
+                  <h4 class="text-uppercase">BONUSES FOR RIDE</h4>
+                  <p>
+                    Orci varius natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-2 d-lg-block d-none">
+                <div class="number">02.</div>
+              </div>
+            </div>
+            <!-- row end  -->
+          </div>
+        </div>
+        <!-- second row end  -->
+      </div>
+    </div>
+    <!-- downlaod end  -->
     <!-- jQuery  -->
     <script src="js/jquery-1.12.4.js"></script>
     <!-- bootstrap js  -->

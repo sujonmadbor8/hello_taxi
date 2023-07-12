@@ -1,13 +1,250 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .padding_tb {
+    padding: 60px 0;
+  }
+  /* header  start  */
+  .nav_toggler {
+    text-align: center;
+  }
+  .menu li {
+    margin-bottom: 10px;
+  }
+  .menu li:first-child {
+    margin-top: 10px;
+  }
+  /* header  end  */
+
+  /* banner start  */
+  .banner {
+    padding: 40px 20px;
+  }
+  .banner_text {
+    text-align: center;
+  }
+  .banner_text h1 {
+    font-family: FiraSansCondensed-Bold;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .banner_text h3 {
+    font-family: FiraSansCondensed-Regular;
+    font-size: 20px;
+    color: var(--white_color);
+  }
+  .form_input:first-child input {
+    margin-top: 0;
+  }
+  .input_container {
+    display: none;
+    margin: 0;
+  }
+  /* banner end  */
+
+  /* services start  */
+  .border_right {
+    border-right: 0;
+  }
+  .service_header h2 {
+    margin-bottom: 0;
+    font-size: 35px;
+  }
+  .service_item {
+    padding: 0 10px;
+    border-right: 0;
+  }
+  /* services end  */
+  /* price start  */
+  .price_header {
+    margin-bottom: 20px;
+  }
+  /* price end  */
+
+  /* downlaod section start  */
+  .d_center {
+    margin-left: 60px;
+  }
+  .desc {
+    padding: 0 0 0 50px;
+  }
+  .desc_r {
+    text-align: center;
+  }
+  .desc_sm {
+    margin-top: 180px;
+  }
+  .d_center {
+  }
+  .download_logo {
+    background-color: #ffc61a;
+    width: 200px;
+    height: 150px;
+    top: 30px;
+    left: -10px;
+    border-radius: 8px;
+  }
+  .download_logo img {
+    height: 50px;
+    margin-top: 17px;
+    margin-left: 25px;
+  }
+  /* downlaod section end */
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .padding_tb {
+    padding: 60px 0;
+  }
+  /* header  start  */
+  .menu li {
+    margin-bottom: 10px;
+  }
+  .menu li:first-child {
+    margin-top: 10px;
+  }
+  /* header  end  */
+
+  /* banner start  */
+  .banner {
+    padding: 40px 70px;
+  }
+  .banner_text {
+    text-align: center;
+  }
+  .banner_text h1 {
+    font-family: FiraSansCondensed-Bold;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .banner_text h3 {
+    font-family: FiraSansCondensed-Regular;
+    font-size: 25px;
+    color: var(--white_color);
+  }
+  .form_input:first-child input {
+    margin-top: 0;
+  }
+  .input_container {
+    margin: 0;
+  }
+  .radio_tile_group {
+    flex-wrap: wrap;
+  }
+  /* banner end  */
+  /* services start  */
+  .border_right {
+    border-right: 0;
+  }
+  .service_header h2 {
+    margin-bottom: 0;
+    font-size: 35px;
+  }
+  .service_item {
+    padding: 0 30px;
+    border-right: 0;
+  }
+  /* services end  */
+  /* price start  */
+  .price_header {
+    margin-bottom: 30px;
+  }
+  /* price end  */
+
+  /* downlaod section start  */
+  .d_center {
+    margin-left: 60px;
+  }
+  .desc {
+    padding: 0 50px 0 100px;
+  }
+  .desc_r {
+    text-align: center;
+  }
+  .desc_sm {
+    margin-top: 110px;
+  }
+  .d_center {
+  }
+  .download_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc61a;
+    width: 400px;
+    height: 100px;
+    top: 30px;
+    left: 0;
+    border-radius: 8px;
+  }
+  .download_logo img {
+    height: 50px;
+    margin: 10px;
+  }
+  /* downlaod section end */
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .padding_tb {
+    padding: 80px 0;
+  }
+  /* header  start  */
+  .menu li {
+    margin-bottom: 10px;
+  }
+  .menu li:first-child {
+    margin-top: 10px;
+  }
+  /* header  end  */
+
+  /* banner start  */
+  .banner {
+    padding: 50px 70px;
+  }
+  .banner_text {
+    text-align: center;
+  }
+  .input_container {
+    margin: 0;
+  }
+  .input_container label {
+    font-size: 0.7rem;
+  }
+  /* banner end  */
+
+  /* services start  */
+  .border_right {
+    border-right: 0;
+  }
+  .service_header h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+  /* services end  */
+  /* price start  */
+  .price_header {
+    margin-bottom: 30px;
+  }
+  /* price end  */
+
+  /* downlaod section start  */
+  .desc_r {
+    text-align: center;
+  }
+  .d_center {
+  }
+  .download_logo {
+    padding-left: 25px;
+    padding-top: 17px;
+    background-color: #ffc61a;
+    width: 200px;
+    height: 200px;
+    top: 70px;
+    left: 25px;
+    border-radius: 8px;
+  }
+  /* downlaod section end */
 }
 
 /* Large devices (desktops, 992px and up) */
