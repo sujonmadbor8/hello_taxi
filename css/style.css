@@ -126,6 +126,10 @@ header {
 .nav_c {
   padding: 20px 0;
 }
+.btn_nav {
+  color: var(--white_color);
+  cursor: pointer;
+}
 .menu li {
   margin-right: 14px;
 }
