@@ -1,6 +1,6 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .padding_tb {
+  480px .padding_tb {
     padding: 60px 0;
   }
   /* header  start  */
@@ -74,13 +74,14 @@
     margin-top: 180px;
   }
   .d_center {
+    text-align: center;
   }
   .download_logo {
     background-color: #ffc61a;
     width: 200px;
     height: 150px;
     top: 30px;
-    left: -10px;
+    left: 0px;
     border-radius: 8px;
   }
   .download_logo img {
