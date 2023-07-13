@@ -108,6 +108,39 @@
     min-height: 480px;
   }
   /* testimonial end  */
+
+  /* client start  */
+  .client_h h3 {
+    font-size: 20px;
+  }
+  .client_h h1 {
+    font-size: 30px;
+    color: var(--white_color);
+  }
+  .client_img {
+    margin-top: 20px;
+  }
+  /* client end  */
+
+  /* footer start  */
+
+  .about_text {
+    padding-right: 0;
+  }
+  .footer_text {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .footer_text h3 {
+    margin-bottom: 10px;
+  }
+  .margin_b {
+    margin-bottom: 25px;
+  }
+  .footer_icons {
+    text-align: center;
+  }
+  /* footer end  */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -219,6 +252,22 @@
     min-height: 370px;
   }
   /* testimonial end  */
+
+  /* client start  */
+  .client_img {
+    margin-top: 20px;
+  }
+  /* client end  */
+
+  /* footer start  */
+
+  .footer_text h3 {
+    margin-bottom: 10px;
+  }
+  .margin_b {
+    margin-bottom: 25px;
+  }
+  /* footer end  */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -288,14 +337,37 @@
     padding-right: 210px;
   }
   /* drivers end  */
+
+  /* footer start  */
+  .footer_text {
+    /* text-align: center; */
+  }
+  .footer_text h3 {
+    margin-bottom: 10px;
+  }
+  .margin_b {
+    margin-bottom: 25px;
+  }
+  /* footer end  */
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  /* download start  */
+  .download_logo {
+    left: 70px;
+  }
+  /* download end  */
 }
 
 /* Extra large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* download start  */
+  .download_logo {
+    top: 45%;
+    left: 28%;
+  }
+  /* download end  */
   /* testimonial start  */
   .testimonial_item {
     min-height: 450px;
