@@ -260,7 +260,9 @@
   /* client end  */
 
   /* footer start  */
-
+  .about_text {
+    padding-right: 0;
+  }
   .footer_text h3 {
     margin-bottom: 10px;
   }
@@ -339,8 +341,8 @@
   /* drivers end  */
 
   /* footer start  */
-  .footer_text {
-    /* text-align: center; */
+  .about_text {
+    padding-right: 0;
   }
   .footer_text h3 {
     margin-bottom: 10px;

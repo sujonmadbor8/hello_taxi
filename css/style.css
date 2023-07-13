@@ -113,6 +113,16 @@ img {
 header {
   background-color: var(--black_color);
 }
+.logo {
+}
+.logo h1 {
+  font-family: FiraSansCondensed-Bold;
+  font-weight: 700;
+  color: var(--white_color);
+}
+.logo span {
+  color: var(--yellow_color);
+}
 .nav_c {
   padding: 20px 0;
 }
@@ -262,6 +272,14 @@ h2 {
   border-right: 0;
 }
 /* services end  */
+
+/* feature item start  */
+.feature_item {
+}
+.feature_item img {
+  width: 120px;
+}
+/* feature item end  */
 
 /* pricing start  */
 .pricing {
