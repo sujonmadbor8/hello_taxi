@@ -1,6 +1,6 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  480px .padding_tb {
+  .padding_tb {
     padding: 60px 0;
   }
   /* header  start  */
@@ -31,13 +31,6 @@
     font-family: FiraSansCondensed-Regular;
     font-size: 20px;
     color: var(--white_color);
-  }
-  .form_input:first-child input {
-    margin-top: 0;
-  }
-  .input_container {
-    display: none;
-    margin: 0;
   }
   /* banner end  */
 
@@ -90,18 +83,6 @@
     margin-left: 25px;
   }
   /* downlaod section end */
-  /* drivers start  */
-  .drivers_t {
-    text-align: center;
-  }
-  .drivers_t p {
-    padding-top: 15px;
-    padding-right: 0;
-  }
-  .btn_driver {
-    text-align: center;
-  }
-  /* drivers end  */
 
   /* testimonial start  */
   .testimonial_item {
@@ -142,6 +123,30 @@
     text-align: center;
   }
   /* footer end  */
+
+  /* footer start  */
+  footer {
+    text-align: center;
+  }
+  .form_subscribe {
+  }
+  .form_subscribe input {
+    width: 204px;
+  }
+  .form_subscribe button {
+    padding: 8px 10px;
+    font-size: 16px;
+  }
+  .about_text {
+    padding-right: 0;
+  }
+  .margin_b {
+    margin-bottom: 40px;
+  }
+  .margin_t {
+    margin-top: 40px;
+  }
+  /* footer end  */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -175,15 +180,7 @@
     font-size: 25px;
     color: var(--white_color);
   }
-  .form_input:first-child input {
-    margin-top: 0;
-  }
-  .input_container {
-    margin: 0;
-  }
-  .radio_tile_group {
-    flex-wrap: wrap;
-  }
+
   /* banner end  */
   /* services start  */
   .border_right {
@@ -235,18 +232,6 @@
     margin: 10px;
   }
   /* downlaod section end */
-  /* drivers start  */
-  .drivers_t {
-    text-align: center;
-  }
-  .drivers_t p {
-    padding-top: 15px;
-    padding-right: 0;
-  }
-  .btn_driver {
-    text-align: center;
-  }
-  /* drivers end  */
 
   /* testimonial start  */
   .testimonial_item {
@@ -269,6 +254,21 @@
   }
   .margin_b {
     margin-bottom: 25px;
+  }
+  /* footer end  */
+  /* footer start  */
+  footer {
+    padding: 0 50px;
+    text-align: center;
+  }
+  .about_text {
+    padding-right: 0;
+  }
+  .margin_b {
+    margin-bottom: 40px;
+  }
+  .margin_t {
+    margin-top: 40px;
   }
   /* footer end  */
 }
@@ -294,12 +294,7 @@
   .banner_text {
     text-align: center;
   }
-  .input_container {
-    margin: 0;
-  }
-  .input_container label {
-    font-size: 0.7rem;
-  }
+
   /* banner end  */
 
   /* services start  */
@@ -335,21 +330,19 @@
   }
   /* downlaod section end */
 
-  /* drivers start  */
-  .drivers_t p {
-    padding-right: 210px;
-  }
-  /* drivers end  */
-
   /* footer start  */
+  footer {
+    padding: 0 50px;
+    text-align: center;
+  }
   .about_text {
     padding-right: 0;
   }
-  .footer_text h3 {
-    margin-bottom: 10px;
-  }
   .margin_b {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+  }
+  .margin_t {
+    margin-top: 40px;
   }
   /* footer end  */
 }
@@ -373,7 +366,7 @@
   /* download end  */
   /* testimonial start  */
   .testimonial_item {
-    min-height: 450px;
+    /* min-height: 450px; */
   }
   /* testimonial end  */
 }
@@ -382,7 +375,7 @@
 @media (min-width: 1400px) {
   /* testimonial start  */
   .testimonial_item {
-    min-height: 450px;
+    /* min-height: 450px; */
   }
   /* testimonial end  */
 }
