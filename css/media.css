@@ -17,22 +17,30 @@
 
   /* banner start  */
   .banner {
-    padding: 40px 20px;
+    padding: 40px 0;
   }
   .banner_text {
     text-align: center;
   }
   .banner_text h1 {
     font-family: FiraSansCondensed-Bold;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
   }
-  .banner_text h3 {
-    font-family: FiraSansCondensed-Regular;
-    font-size: 20px;
-    color: var(--white_color);
+  .banner_text p {
+    padding: 10px 0 40px;
   }
+  .banner_img {
+    padding: 0 70px;
+  }
+
   /* banner end  */
+
+  /* about start  */
+  .about_desc h1 {
+    font-size: 25px;
+  }
+  /* about end  */
 
   /* services start  */
   .border_right {
@@ -40,7 +48,10 @@
   }
   .service_header h2 {
     margin-bottom: 0;
-    font-size: 35px;
+    font-size: 25px;
+  }
+  .service_header h4 {
+    font-size: 20px;
   }
   .service_item {
     padding: 0 10px;
@@ -96,7 +107,7 @@
     font-size: 20px;
   }
   .client_h h1 {
-    font-size: 30px;
+    font-size: 25px;
     color: var(--white_color);
   }
   .client_img {
@@ -165,7 +176,7 @@
 
   /* banner start  */
   .banner {
-    padding: 40px 50px;
+    padding: 40px 0;
   }
   .banner_text {
     text-align: center;
@@ -277,6 +288,9 @@
   .margin_t {
     margin-top: 40px;
   }
+  .form_subscribe {
+    justify-content: center;
+  }
   /* footer end  */
 }
 
@@ -365,6 +379,9 @@
   }
   .margin_t {
     margin-top: 40px;
+  }
+  .form_subscribe {
+    justify-content: center;
   }
   /* footer end  */
 }
