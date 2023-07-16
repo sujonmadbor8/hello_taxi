@@ -165,23 +165,30 @@
 
   /* banner start  */
   .banner {
-    padding: 40px 70px;
+    padding: 40px 50px;
   }
   .banner_text {
     text-align: center;
   }
   .banner_text h1 {
     font-family: FiraSansCondensed-Bold;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 700;
   }
-  .banner_text h3 {
-    font-family: FiraSansCondensed-Regular;
-    font-size: 25px;
-    color: var(--white_color);
+  .banner_text p {
+    padding: 20px 0 40px;
+  }
+  .banner_img {
+    padding: 0 70px;
   }
 
   /* banner end  */
+
+  /* about start  */
+  .about_desc h1 {
+    font-size: 35px;
+  }
+  /* about end  */
   /* services start  */
   .border_right {
     border-right: 0;
@@ -289,13 +296,28 @@
 
   /* banner start  */
   .banner {
-    padding: 50px 70px;
+    padding: 50px 0;
+  }
+  .banner_item {
+    display: inline-block !important;
   }
   .banner_text {
+    width: 100%;
     text-align: center;
   }
-
+  .banner_text p {
+    padding: 20px 0 50px;
+  }
+  .banner_img {
+    margin: auto;
+    width: 60%;
+  }
   /* banner end  */
+  /* about start  */
+  .about_desc h1 {
+    font-size: 40px;
+  }
+  /* about end  */
 
   /* services start  */
   .border_right {

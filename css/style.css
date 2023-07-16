@@ -88,14 +88,14 @@ img {
   width: 100%;
 }
 .btn_c {
-  color: var(--white_color);
-  padding: 8px 30px;
+  color: var(--yellow_color);
+  padding: 10px 30px;
   font-family: FiraSansCondensed-Medium;
   font-size: 18px;
   border: 0;
   border-radius: 30px;
   outline: 0;
-  background-color: var(--yellow_color);
+  background-color: var(--black_color);
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s;
@@ -137,8 +137,7 @@ header {
 .nav_c {
   padding: 20px 0;
 }
-.btn_nav {
-}
+
 .menu li {
   margin-right: 14px;
 }
@@ -161,19 +160,25 @@ header {
   padding: 90px 0;
   background-color: var(--yellow_color);
 }
+.banner_item {
+}
+.banner_text {
+  margin-bottom: 10px;
+}
 .banner_text h1 {
   font-family: FiraSansCondensed-Bold;
-  font-size: 65px;
+  font-size: 45px;
   font-weight: 700;
-}
-.banner_text h3 {
-  font-family: FiraSansCondensed-Regular;
-  font-size: 40px;
   color: var(--white_color);
 }
-.slick-prev,
-.slick-arrow {
-  display: none !important;
+.banner_text p {
+  padding: 20px 60px 50px 0;
+  color: rgb(100, 100, 100);
+}
+
+.banner_img {
+}
+.banner_img img {
 }
 
 /* banner end  */
@@ -498,7 +503,7 @@ footer {
 .footer_text {
 }
 .footer_text h1,
-h4 {
+.footer_text h4 {
   margin-bottom: 20px;
   font-family: FiraSansCondensed-Bold;
   font-weight: 700;
@@ -507,7 +512,7 @@ h4 {
 }
 
 .footer_text h1 span,
-h4 {
+.footer_text h4 {
   color: var(--yellow_color);
 }
 .about_text {
@@ -569,6 +574,8 @@ h4 {
 }
 
 .form_subscribe button {
+  background-color: var(--yellow_color);
+  color: var(--white_color);
   border-radius: 0;
   border-bottom-right-radius: 10px;
   border-left: 1px solid var(--white_color);
