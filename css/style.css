@@ -125,6 +125,7 @@ header {
   background-color: var(--black_color);
 }
 .sticky {
+  margin-top: -1px;
   background-color: #1f1f1fbd;
 }
 .logo {
