@@ -1,5 +1,8 @@
 // javScript code here
-
+window.addEventListener("scroll", function () {
+  var header = document.querySelector("header");
+  header.classList.toggle("sticky", window.scrollY > 0);
+});
 // aos start
 AOS.init({
   duration: 700,
@@ -11,7 +14,7 @@ $(function () {
   $(".s_slider").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 3000,
     arrows: false,
   });

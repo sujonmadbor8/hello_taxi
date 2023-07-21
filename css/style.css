@@ -124,6 +124,9 @@ hr.horizontal_row {
 header {
   background-color: var(--black_color);
 }
+.sticky {
+  background-color: #1f1f1fbd;
+}
 .logo {
 }
 .logo h1 {
@@ -137,7 +140,9 @@ header {
 .nav_c {
   padding: 20px 0;
 }
-
+.sticky .nav_c {
+  padding: 10px 0;
+}
 .menu li {
   margin-right: 14px;
 }
